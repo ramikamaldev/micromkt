@@ -1,0 +1,31 @@
+{
+  "name": "micromkt",
+  "version": "0.0.1",
+  "description": "Micro MKT Bitcoin Price Querier",
+  "main": "./bin/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "MicroMKT"
+  ],
+  "author": "Rami Kamal",
+  "license": "ISC",
+  "dependencies": {
+    "@types/big.js": "^6.1.1",
+    "big.js": "^6.1.1",
+    "chalk": "^4.1.1",
+    "console-table-printer": "^2.9.0",
+    "request": "^2.88.2",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.5",
+    "@types/yargs": "^17.0.0",
+    "grunt": "^1.4.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.22",
+    "typescript": "^4.3.4"
+  }
+}
